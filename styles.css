@@ -86,6 +86,49 @@ ul {
     cursor: pointer;
 }
 
+/* top-middle-content */
+.top-middle-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.information-header-text {
+    flex: 1 auto;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin: 40px 0 0 0;
+}
+
+.illustration-box {
+    border: 2px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+}
+
+.illustration-subtext-pair-wrapper {
+    flex: 3 auto;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 50px;
+}
+
+.illustration-subtext-pair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 6px;
+}
+
+.subtext {
+    text-align: center;
+}
+
 /* footer styles */
 footer {
     display: flex;
