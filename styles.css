@@ -152,6 +152,36 @@ ul {
     align-self: flex-end;
 }
 
+/* bottom-content */
+.bottom-content {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-card-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 35px;
+    height: 40%;
+    width: 70%;
+}
+
+.call-to-action-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action-subtext {
+    color: #E5E7EB;
+}
+
+.btn-white-border {
+    border: 2px solid #F9FAF8;
+}
+
 /* footer styles */
 footer {
     display: flex;
