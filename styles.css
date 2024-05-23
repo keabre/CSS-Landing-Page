@@ -2,12 +2,14 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+
+/* header styles */
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
-    height: 40px;
+    height: 50px;
 }
 
 a {
@@ -28,4 +30,16 @@ ul {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+}
+
+
+/* footer styles */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 64px;
 }
