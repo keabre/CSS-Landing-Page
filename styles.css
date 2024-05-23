@@ -162,15 +162,16 @@ ul {
 .bottom-content {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
 .sign-up-card-wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #3882F6;
     border-radius: 8px;
-    padding: 35px;
     height: 40%;
     width: 70%;
 }
