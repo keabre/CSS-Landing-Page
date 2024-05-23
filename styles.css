@@ -137,10 +137,16 @@ ul {
 /* bottom-middle-content */
 .bottom-middle-content {
     background-color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.quotation-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 1;
+    width: 55%;
 }
 
 .quote-text {
