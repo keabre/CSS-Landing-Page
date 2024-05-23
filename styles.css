@@ -1,5 +1,8 @@
 body {
     font-family: 'roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 1912px;
 }
 
 
@@ -40,6 +43,7 @@ ul {
     padding: 10%;
     gap: 5%;
     max-width: 100%;
+    flex: 1;
 }
 
 .top-content-text-portion {
@@ -92,6 +96,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    flex: 1;
 }
 
 .information-header-text {
@@ -135,6 +140,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
 }
 
 .quote-text {
@@ -156,6 +162,7 @@ ul {
 .bottom-content {
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 
 .sign-up-card-wrapper {
