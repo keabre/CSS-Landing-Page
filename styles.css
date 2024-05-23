@@ -40,9 +40,8 @@ ul {
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    padding: 10%;
+    padding: 0 15%;
     gap: 5%;
-    max-width: 100%;
     flex: 1;
 }
 
@@ -61,7 +60,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
     aspect-ratio: 2 / 1;
 }
 
